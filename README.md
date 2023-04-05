@@ -3,3 +3,4 @@ The purpose of this graduation project is to develop and deploy a multi-cloud ap
 
 Our project is a cloud application framework that provides intra- and inter-cloud resilience to reduce vendor disruptions. Much research has been done on intra-loud resilience, which allows applications to move from one server to another. However, intra-loud reliability platforms are not as common.
 
+#Vision and Goals Of The Project: 
