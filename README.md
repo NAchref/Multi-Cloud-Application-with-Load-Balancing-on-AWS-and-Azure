@@ -5,6 +5,9 @@ The purpose of this graduation project is to develop and deploy a multi-cloud ap
 
 Our project is a cloud application framework that provides intra- and inter-cloud resilience to reduce vendor disruptions. Much research has been done on intra-loud resilience, which allows applications to move from one server to another. However, intra-loud reliability platforms are not as common.
 
+##Architecture
+![alt text](https://github.com/NAchref/Multi-Cloud-Application-with-Load-Balancing-on-AWS-and-Azure/blob/main/PLAN%20%26%20ARCHITECTURE/Architecture.jpg)
+
 ## Vision and Goals Of The Project: 
 
 My project is a framework for cloud applications to mitigate provider outages by providing resiliency at both the both intra- and inter-cloud levels, making it possible for pieces of applications to migrate from one server to another. Intra-cloud reliability platforms, however, are not nearly as common. We have included this in order to protect applications from several issues ranging from cyber attacks to hardware failures. If parts of AWS or AZURE go down, for example, the application itself should be alive and kicking, as resources will be directed to the provider that is still up.
