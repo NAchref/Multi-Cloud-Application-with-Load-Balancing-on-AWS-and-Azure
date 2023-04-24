@@ -17,8 +17,8 @@ Finally, I plan to host my website on a cloud platform, which will provide scala
 
 ##  Steps With Django: Set Up a Django Project
 
-. Prepare Your Environment.
-. Install Django and Pin Your Dependencies.
-. Set Up a Django Project.
-. Start a Django App.
+1 Prepare Your Environment.
+2 Install Django and Pin Your Dependencies.
+3 Set Up a Django Project.
+4 Start a Django App.
 
