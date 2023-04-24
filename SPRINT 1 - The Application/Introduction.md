@@ -22,7 +22,7 @@ Finally, I plan to host my website on a cloud platform, which will provide scala
 * Set Up a Django Project.
 * Start a Django App.
 
-# Prepare Environment
+### Prepare Environment
 
 * Install Package. First, install python3-venv package by using the following command.
 * Create a Directory. $ mkdir djangoenv. ...
