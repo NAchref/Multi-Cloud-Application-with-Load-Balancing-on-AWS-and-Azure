@@ -15,5 +15,10 @@ One of the key benefits of using Django for an e-commerce website is its ability
 Finally, I plan to host my website on a cloud platform, which will provide scalability, reliability, and cost-effectiveness. Cloud platforms offer the ability to easily scale resources up or down based on traffic demand, ensuring that my website can handle a large number of users without any performance issues. Cloud platforms also offer high availability and reliability by replicating data across multiple servers and data centers, ensuring that my website is always available and performing well. Additionally, cloud platforms provide several security features such as firewalls, identity and access management, and encryption, which can help protect my website and user data from cyber attacks. Overall, using Django and hosting on a cloud platform provides the necessary features and benefits to build and run a successful e-commerce website.
 
 
+##  Steps With Django: Set Up a Django Project
 
+. Prepare Your Environment.
+. Install Django and Pin Your Dependencies.
+. Set Up a Django Project.
+. Start a Django App.
 
