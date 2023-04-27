@@ -24,8 +24,7 @@ Finally, I plan to host my website on a cloud platform, which will provide scala
 
 ### Prepare Environment
 
-* Install Package. First, install python3-venv package by using the following command.
-* Create a Directory. $ mkdir djangoenv. ...
-* Create Virtual Environment. $ python3 -m venv djangoenv. ...
-* Activate Virtual Environment.
+* Install Package. First, install python 3 the latest version(download python 3.11), the version of django that combine with python 3.11 is the version 4.2
+* From the command line,  into a directory where you’d like to store your code, then run the following command: 
+$ django-admin startproject CarsEcommerce
 
