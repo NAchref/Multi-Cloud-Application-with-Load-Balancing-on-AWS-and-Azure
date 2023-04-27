@@ -6,32 +6,26 @@ The choice of the web application to create on cloud Azure and AWS would depend 
 
 If you want to create an e-commerce web application, you could consider using a platform like Magento, Shopify or WooCommerce, and deploy it on a cloud service. These platforms have built-in support for e-commerce features like shopping carts, payment gateways, and inventory management.
 
-### Magento:
+## Django
 
-Magento is a popular open-source e-commerce platform that provides a rich set of features for building e-commerce websites. It offers features such as product management, shopping carts, payment integration, and order management. It's built on PHP and uses a MySQL database. It's scalable, flexible, and customizable, making it an excellent choice for large-scale e-commerce websites.
+I have chosen to develop my e-commerce website using Django because of its powerful and flexible framework that enables rapid development and scalability. Django follows the Model-View-Controller (MVC) architectural pattern and is based on the Don't Repeat Yourself (DRY) principle. This allows for efficient development of web applications, as code is written once and reused wherever possible. Django's built-in features such as an Object-Relational Mapping (ORM), a templating engine, and an authentication system, along with a large library of third-party packages, make it an ideal choice for building complex web applications such as e-commerce platforms.
 
-### Shopify:
+One of the key benefits of using Django for an e-commerce website is its ability to handle large amounts of data and transactions. Django's ORM layer provides an easy way to interact with a database and manage data related to products, orders, customers, and more. Additionally, Django provides tools for handling user input securely, which is essential for online transactions.
 
-Shopify is a cloud-based e-commerce platform that provides a range of features for creating and managing online stores. It offers features such as website design, product management, payment integration, and order management. It's easy to use, and you don't need much technical knowledge to get started. It's also scalable and secure, making it a good choice for small to medium-sized e-commerce businesses.
-
-### WooCommerce:
-
-WooCommerce is a popular e-commerce plugin for WordPress, the most widely used content management system (CMS) on the web. It offers features such as product management, payment integration, and order management. It's built on PHP and uses a MySQL database. It's easy to use, customizable, and integrates well with WordPress themes and plugins.
-
-.________________________________________________________________________________________________________________________________________________
-
-So, We choose to create a web application using magento. Magento as the technology for your web app on Azure and AWS can offer several benefits, including : 
-
-* Scalability: Both Azure and AWS offer scalable infrastructure for hosting web applications. This means that you can easily scale your Magento web app to meet growing demand, without having to worry about server capacity or performance.
-
-* High Availability: Azure and AWS both offer high availability options, including load balancing and redundant infrastructure. This ensures that your Magento web app remains available even if one or more servers fail.
-
-* Flexibility: Both Azure and AWS offer a wide range of services and integrations that can be used to enhance your Magento web app. This includes databases, caching, storage, and more.
-
-* Security: Both Azure and AWS offer robust security features, including firewalls, encryption, and access control. This can help you protect your Magento web app from potential security threats.
-
-* Cost-Effective: Both Azure and AWS offer flexible pricing models that allow you to pay only for the resources you use. This can help you reduce your overall costs and optimize your budget for your Magento web app.
+Finally, I plan to host my website on a cloud platform, which will provide scalability, reliability, and cost-effectiveness. Cloud platforms offer the ability to easily scale resources up or down based on traffic demand, ensuring that my website can handle a large number of users without any performance issues. Cloud platforms also offer high availability and reliability by replicating data across multiple servers and data centers, ensuring that my website is always available and performing well. Additionally, cloud platforms provide several security features such as firewalls, identity and access management, and encryption, which can help protect my website and user data from cyber attacks. Overall, using Django and hosting on a cloud platform provides the necessary features and benefits to build and run a successful e-commerce website.
 
 
+##  Steps With Django: Set Up a Django Project
 
+* Prepare Your Environment.
+* Install Django and Pin Your Dependencies.
+* Set Up a Django Project.
+* Start a Django App.
+
+### Prepare Environment
+
+* Install Package. First, install python3-venv package by using the following command.
+* Create a Directory. $ mkdir djangoenv. ...
+* Create Virtual Environment. $ python3 -m venv djangoenv. ...
+* Activate Virtual Environment.
 
