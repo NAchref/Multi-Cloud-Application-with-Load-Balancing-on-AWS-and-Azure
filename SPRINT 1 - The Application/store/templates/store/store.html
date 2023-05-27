@@ -1,6 +1,9 @@
 {% extends 'store/main.html' %}
 {% load static %}
+{% load livereload_tags %}
+{% livereload_script %}
 {% block content %}
+<h2>Store</h2>
 	<div class="row">
 		<div class="col-lg-4">
 			<img class="thumbnail" src="{% static 'images/placeholder.png' %}">
