@@ -22,6 +22,21 @@ Finally, I plan to host my website on a cloud platform, which will provide scala
 * Set Up a Django Project.
 * Start a Django App.
 
+Now that we have Django installed, let's create our project. CD into where you want your project files, mine will be in the desktop. We will use django-admin startproject “project name”.
+
+## Once you create your project be sure to CD into it before the next step.
+
+-- django-admin startproject Carscommerce
+
+#Create app
+
+
+## Create the first app files with python manage.py startapp “appname".
+
+-- python manage.py startapp store
+
+
+
 ### Prepare Environment
 
 * Install Package. First, install python 3 the latest version(download python 3.11), the version of django that combine with python 3.11 is the version 4.2
