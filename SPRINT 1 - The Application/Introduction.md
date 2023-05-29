@@ -28,10 +28,10 @@ Now that we have Django installed, let's create our project. CD into where you w
 
 -- django-admin startproject Carscommerce
 
-#Create app
+## Create app
 
 
-## Create the first app files with python manage.py startapp “appname".
+### Create the first app files with python manage.py startapp “appname".
 
 -- python manage.py startapp store
 
