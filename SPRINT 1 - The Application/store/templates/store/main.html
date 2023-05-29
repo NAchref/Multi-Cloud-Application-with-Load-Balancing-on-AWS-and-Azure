@@ -2,41 +2,49 @@
 {% load static %}
 <html>
 <head>
-	<title>Cars Ecommerce</title>
+	<title>CarsEcom</title>
 
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1" />
-  <link rel="stylesheet" type="text/css" href="{% static 'css/main.css' %}">
+
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
-	
+	<link rel="stylesheet" type="text/css" href="{% static 'css/main.css' %}">
 
 </head>
 <body>
 
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <a class="navbar-brand" href="#"><img src="{% static 'images/RedCarLogo.png' %}" alt="" style="height: 90px; width: 250px;"></a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-  
- <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="{% url 'store' %}">Store <span class="sr-only">(current)</span></a>
-      </li>
- 
-    </ul>
-    <div class="form-inline my-2 my-lg-0">
-     	<a href="#"class="btn btn-warning">Login</a>
-     	
-     	<a href="{% url 'cart' %}">
-    		<img id="cart-icon" src="{% static 'images/cart.png' %}">
-    	</a>
-    	<p id="cart-total">0</p>
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+	  <a class="navbar-brand" href="{% url 'store' %}">CarsEcom</a>
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+	    <span class="navbar-toggler-icon"></span>
+	  </button>
 
-    </div>
-  </div>
-  </nav>
+	  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+	    <ul class="navbar-nav mr-auto">
+	      <li class="nav-item active">
+	        <a class="nav-link" href="{% url 'store' %}">Store <span class="sr-only">(current)</span></a>
+	      </li>
+	 
+	    </ul>
+	    <div class="form-inline my-2 my-lg-0">
+	     	<a href="#"class="btn btn-warning">Login</a>
+	     	
+	     	<a href="{% url 'cart' %}">
+	    		<img  id="cart-icon" src="{% static 'images/cart.png' %}">
+	    	</a>
+	    	<p id="cart-total">0</p>
+
+	    </div>
+	  </div>
+	</nav>
+
+     <div class="container">
+            <br>
+            {% block content %}
+
+
+            {% endblock content %}
+         </div>
 
 
 	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
