@@ -43,3 +43,9 @@ Now that we have Django installed, let's create our project. CD into where you w
 * From the command line,  into a directory where you’d like to store your code, then run the following command: 
 * $ django-admin startproject CarsEcommerce
 
+## Add app to settings.py
+
+When you open up your project you should see the app we just created in your project folder. Make sure you add the new app to INSTALLED_APPS within settings.py
+
+In your command promt run "python manage.py runnserver" and open up port 127.0.0.1:8000.
+
