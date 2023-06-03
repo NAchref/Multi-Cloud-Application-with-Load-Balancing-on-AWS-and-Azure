@@ -70,6 +70,7 @@ Right now, let's create all the templates we will need along with one main templ
 ## Create Views
 
 Inside your apps views.py file create 3 views. Right now we just want to render the templates we created.
+
 /// File: store/views.py
 
 #### URLS
@@ -77,6 +78,7 @@ Inside your apps views.py file create 3 views. Right now we just want to render 
 Create a file called "urls.py" inside your app.
 
 Inside the app import “path” along with the “views” and create a urlpatterns list. Inside "urlpatterns " create 3 paths, one for each view and give them a name.
+
 /// File: store/urls.py
 
 #### Base URLs Configuration
