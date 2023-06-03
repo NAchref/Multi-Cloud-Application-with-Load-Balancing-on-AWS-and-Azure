@@ -60,10 +60,13 @@ In your command promt run "python manage.py runnserver" and open up port 127.0.0
 
 Right now, let's create all the templates we will need along with one main template that all the other templates will inherit from.
 
-Main.html → Template which all will inherit from
-Store.html → Home page/store front with all products
-Cart.html → Users shopping cart
-Checkout.html → Checkout page
+* Main.html → Template which all will inherit from
+* Store.html → Home page/store front with all products
+* Cart.html → Users shopping cart
+* Checkout.html → Checkout page  
+
+
+
 
 
 
