@@ -67,6 +67,28 @@ Right now, let's create all the templates we will need along with one main templ
 
 
 
+## Create Views
+
+Inside your apps views.py file create 3 views. Right now we just want to render the templates we created.
+/// File: store/views.py
+
+#### URLS
+
+Create a file called "urls.py" inside your app.
+
+Inside the app import “path” along with the “views” and create a urlpatterns list. Inside "urlpatterns " create 3 paths, one for each view and give them a name.
+/// File: store/urls.py
+
+#### Base URLs Configuration
+
+To connect our new urls we need to open up the urls.py file in the root directory and "include" it. 
+
+First import "inlcude" just after "path" and add a path that points to the new urls.py we created inside "store".
+
+/// File: CarsEcommerce/urls.py
+
+
+
 
 
 
