@@ -1,4 +1,4 @@
-{% extends 'store/main.html' %}
+ {% extends 'store/main.html' %}
 {% load static %}
 {% block content %}
      <div class="row">
@@ -59,8 +59,8 @@
 					<div style="flex:1"><p>$20.00</p></div>
 					<div style="flex:1"><p>x2</p></div>
 				</div>
-				<h5>Items:   2</h5>
-				<h5>Total:   $4</h5>
+				<h5>Items:   {{order.get_cart_items}}</h5>
+				<h5>Total:   ${{order.get_cart_total}}</h5>
 			</div>
 		</div>
 	</div>
