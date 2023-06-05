@@ -107,6 +107,8 @@ Now in order to see this effect, let's configure things in settings.py and then 
 
 In "settings.py", we should already have "STATIC_URL". Now we will just need to add "STATICFILES_DIRS" and point it to the new static folder we created in our base directory.
 
+## Add Static Files to Page
+
 
 
 
