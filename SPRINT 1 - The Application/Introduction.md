@@ -89,6 +89,24 @@ First import "inlcude" just after "path" and add a path that points to the new u
 
 /// File: CarsEcommerce/urls.py
 
+###  Static Files
+
+In your root directory create a folder called "static".
+
+Inside the new “static” folder, let's create a folder called "CSS" and another called "Images". These files will hold all of our CSS and Images.
+
+### CSS File
+
+Inside the CSS folder, let's create a file call main.css. This file will later be the main source of styling for each page along with the bootstrap CDN. 
+
+Inside "main.css",
+
+### STATICFILES_DIRES
+
+Now in order to see this effect, let's configure things in settings.py and then add this link to our template.
+
+In "settings.py", we should already have "STATIC_URL". Now we will just need to add "STATICFILES_DIRS" and point it to the new static folder we created in our base directory.
+
 
 
 
