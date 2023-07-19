@@ -1,5 +1,5 @@
 ## AWS Deployement :
-.
+
 ### Create EC2 instance & configuration
 
 To create an EC2 instance on AWS, several essential steps need to be followed to ensure a successful setup. 
