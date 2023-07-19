@@ -1,4 +1,4 @@
-## AWS Deployement :
+## AWS Deployement 
 
 ### Create EC2 instance & configuration : 
 
