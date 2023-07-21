@@ -26,14 +26,21 @@ Now that we have Django installed, let's create our project. CD into where you w
 
 ## Once you create your project be sure to CD into it before the next step.
 
--- django-admin startproject Carscommerce
+``` django
+django-admin startproject Carscommerce
+
+```
 
 ## Create app
 
 
 ### Create the first app files with python manage.py startapp “appname".
 
--- python manage.py startapp store
+
+``` pyhton
+python manage.py startapp store
+
+```
 
 
 
