@@ -9,12 +9,12 @@ and i configure to create a Security Group and also checked to allow SSH traffic
 
 ### Setup :
 
-. Update the System 
-. To get this repository, run the following command inside your git enabled terminal
+* Update the System 
+* To get this repository, run the following command inside your git enabled terminal
 
-. You will need django to be installed in you computer to run this app. Head over to https://www.djangoproject.com/download/ for the download guide
+* You will need django to be installed in you computer to run this app. Head over to https://www.djangoproject.com/download/ for the download guide
 
-. Download django usig pip
+* Download django usig pip
 
 
 
