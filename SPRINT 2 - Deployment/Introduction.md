@@ -31,9 +31,12 @@ git clone https://github.com/yeshwanthlm/django-on-ec2.git
 
  ``` bash
 sudo apt install python3-pip -y
-pip install django
-
 ```
+ ``` bash
+pip install django
+```
+
+
 
 
 
