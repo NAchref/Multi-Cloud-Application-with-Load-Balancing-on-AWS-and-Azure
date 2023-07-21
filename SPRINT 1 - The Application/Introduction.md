@@ -47,8 +47,12 @@ python manage.py startapp store
 ### Prepare Environment
 
 * Install Package. First, install python 3 the latest version(download python 3.11), the version of django that combine with python 3.11 is the version 4.2
-* From the command line,  into a directory where you’d like to store your code, then run the following command: 
-* $ django-admin startproject CarsEcommerce
+* From the command line,  into a directory where you’d like to store your code, then run the following command:
+
+ ``` django  
+  django-admin startproject CarsEcommerce
+
+```
 
 ## Add app to settings.py
 
