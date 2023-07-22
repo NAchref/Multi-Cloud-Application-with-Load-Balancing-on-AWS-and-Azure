@@ -1,7 +1,7 @@
 # Sprint 2 - Deplyment of application on AWS & Azure 
 
-Deploy the application on Ec2 web server and connect to RDS service of databasing on Amazon 
-Deploy the application on Azm web server and connect to SQL azure service on Microsoft Azur 
+* Deploy the application on `EC2` web server and connect to RDS service of databasing on Amazon 
+* Deploy the application on `AZM` web server and connect to SQL azure service on Microsoft Azur 
 
 
 ## AWS Deployement 
