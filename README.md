@@ -20,9 +20,12 @@ We will implemented `load balancing` at both the `intra-` and `inter-cloud` leve
 
 Sprint 1:
 
-Create a sample e-commerce application that have a simple CRUD
-Get a basic web server running on Azure that can connect to AzureSQL
-Get a basic web server running on AWS that can connect to RDS
+Create a sample e-commerce application with `django` that have a simple CRUD Locally
+
+Sprint 2:
+ 
+Get a basic web server running on Azure that can connect to `AzureSQL`
+Get a basic web server running on AWS that can connect to `RDS`
 Ensure the web app can serve static content
 Ensure the web app can serve dynamic content and have will CRUD functionality as described
 
