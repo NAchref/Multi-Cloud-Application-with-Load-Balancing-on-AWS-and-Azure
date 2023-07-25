@@ -84,6 +84,12 @@ Then `Run the server`
 python manage.py runserver
 
 ```
+Run the migration command
+
+``` python
+python manage.py makemigrations
+
+```
 
 
 
