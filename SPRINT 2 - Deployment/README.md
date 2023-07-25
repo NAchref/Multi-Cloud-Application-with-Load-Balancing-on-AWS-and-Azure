@@ -42,6 +42,10 @@ sudo apt install python3-pip -y
 pip install django
 ```
 
+#### Step ||
+
+Create a RDS instance represented Mysql and configure with security group with inbounded accept all traffic on IPv4
+
 
 
 
