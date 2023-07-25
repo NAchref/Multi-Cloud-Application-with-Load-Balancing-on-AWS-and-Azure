@@ -68,8 +68,29 @@ DATABASES = {
         'PORT':'3306',
     }
 }
+```
+
+First, i have replaced the ‘django.db.backends.sqlite3’ to ‘django.db.backends.mysql’. This is basically indicating i shift SQLite to MySQL database.
+
+NAME: It indicates the name of the database we want to connect.
+USER: The MYSQL username is the one who has access to the database and manages it.
+PASSWORD: It is the password of the database. 
+HOST: It is indicated by the endPoint of database inside RDS instance and “PORT” “3306” that the MySQL database is accessible at hostname “0.0.1” and on port “3306.”
+
+
+Then `Run the server`
+
+``` python
+python manage.py runserver
 
 ```
+
+
+
+
+
+
+
 
 
 
