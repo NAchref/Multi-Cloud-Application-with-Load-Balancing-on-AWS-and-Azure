@@ -46,6 +46,30 @@ pip install django
 ### Step II
 
 Create a RDS instance represented Mysql and configure with security group with inbounded accept all traffic on IPv4, Then downlod MySQLWorkbench and connected to it.
+After check the connection between the RDS instance and MysqlWorkBench, I update settigns.py to connect Django app inside my Ec2 instance to my RDS database instance.
+To connect Ec2 instance Django app run the following command inside terminal : 
+
+install another library to use the MySQL database
+
+``` bash
+pip install mysqlclient
+```
+Open settings.py here inside the DATABASES variable configure MySQL database values, and add values of your database.
+
+``` pyhton
+
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'mydb',
+        'USER': 'root',
+        'PASSWORD': 'admin',
+        'HOST':'localhost',
+        'PORT':'3306',
+    }
+}
+
+```
 
 
 
