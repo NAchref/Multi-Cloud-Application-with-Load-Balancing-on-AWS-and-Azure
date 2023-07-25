@@ -43,7 +43,7 @@ pip install django
 ```
 
 
-### Step ||
+### Step II
 
 Create a RDS instance represented Mysql and configure with security group with inbounded accept all traffic on IPv4, Then downlod MySQLWorkbench and connected to it.
 
