@@ -80,18 +80,22 @@ HOST: It is indicated by the endPoint of database inside RDS instance and “POR
 
 Then `Run the server`
 
-``` python
-python manage.py runserver
-
-```
-
-
-Finally, Run the migration command
+Run the migration command
 
 ``` python
 python manage.py makemigrations
 
 ```
+
+Finally
+
+``` python
+python manage.py runserver 0.0.0.0:8000
+
+```
+
+
+
 
 
 
