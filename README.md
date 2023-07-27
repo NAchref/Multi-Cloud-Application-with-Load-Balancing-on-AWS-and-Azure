@@ -31,8 +31,13 @@ Ensure the web app can serve dynamic content and have will CRUD functionality as
 
 ### Sprint 3:
 
-Containerized applications Django and upload it to Ec2 instance and connected to RDS DataBase.
+`Containerized` applications Django using Docker and upload it to Ec2 instance and connected to RDS DataBase.
 In same time upload container to Azure Vm and connected to Mysql Azure database.
+
+### Sprint 4 
+
+Start load balancing between container on same instance using the Amazon Elastic Load Balancing (ELB), And on the same mission using Azure Load Balancer on azure 
+virtual machine 
 
 
 
