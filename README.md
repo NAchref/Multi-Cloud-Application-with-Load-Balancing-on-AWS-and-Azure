@@ -36,7 +36,7 @@ In same time upload container to Azure Vm and connected to Mysql Azure database.
 
 ### Sprint 4 
 
-Start load balancing between container on same instance using the Amazon Elastic Load Balancing (ELB), And on the same mission using Azure Load Balancer on azure 
+Start creating a `load balancing` service between container on same instance using the Amazon `Elastic Load Balancing (ELB)`, And on the same mission using `Azure Load Balancer` on azure 
 virtual machine 
 
 
