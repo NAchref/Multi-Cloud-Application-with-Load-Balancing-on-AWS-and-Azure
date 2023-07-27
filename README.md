@@ -18,15 +18,21 @@ We will implemented `load balancing` at both the `intra-` and `inter-cloud` leve
 
 ## Release Planning:
 
-Sprint 1:
+### Sprint 1:
 
 Create a sample e-commerce application with `django` that have a simple CRUD Locally
 
-Sprint 2:
+### Sprint 2:
  
 Get a basic web server running on Azure that can connect to `AzureSQL`
 Get a basic web server running on AWS that can connect to `RDS`
 Ensure the web app can serve static content
 Ensure the web app can serve dynamic content and have will CRUD functionality as described
+
+### Sprint 3:
+
+Containerized applications Django and upload it to Ec2 instance and connected to RDS DataBase.
+In same time upload container to Azure Vm and connected to Mysql Azure database.
+
 
 
