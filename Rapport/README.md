@@ -1,3 +1,3 @@
 ## RAPPORT
 
-HERE IS A RAPPORT REPRESENTED ALL PART OF WORK AND THE CONTEXT OF THIS PROJECT.
+Here is a rapport that reprensented all part of work and the context of this project.
