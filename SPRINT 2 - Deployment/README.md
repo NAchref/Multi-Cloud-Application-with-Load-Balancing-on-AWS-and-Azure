@@ -101,13 +101,12 @@ python manage.py runserver 0.0.0.0:8000
 
 
 * Launch Azure Cloud Shell
-
-The Azure Cloud Shell is a interactive shell that you can use to run the steps and commands. It has common Azure tools preinstalled and configured to use with your account.
-To open the Cloud Shell, just select Try it from the upper right corner of a code block.
+   The Azure Cloud Shell is a interactive shell that you can use to run the steps and commands. It has common Azure tools preinstalled and configured to use    with your account.
+   To open the Cloud Shell, just select Try it from the upper right corner of a code block.
 
 * Create a resource group
 
- Create a resource group with the az group create command.
+  Create a resource group with the az group create command.
 
  ``` shell
 
@@ -116,6 +115,22 @@ location="CanadaEast"
 az group create --name $resourcegroup --location $location
 
 ```
+
+* Create virtual machine
+  Create a VM with az vm create. The following example creates a VM named myVM.
+
+   ``` shell
+   
+vmname="myVM"
+username="azureuser"
+az vm create \
+    --resource-group $resourcegroup \
+    --name $vmname \
+    --image Win2022AzureEditionCore \
+    --public-ip-sku Standard \
+    --admin-username $username
+    
+   ````
 
 
 
