@@ -120,8 +120,7 @@ az group create --name $resourcegroup --location $location
   Create a VM with az vm create. The following example creates a VM named myVM.
 
    ``` shell
-   
-vmname="myVM"
+   vmname="myVM"
 username="azureuser"
 az vm create \
     --resource-group $resourcegroup \
