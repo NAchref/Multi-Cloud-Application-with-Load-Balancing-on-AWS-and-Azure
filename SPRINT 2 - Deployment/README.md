@@ -100,6 +100,12 @@ python manage.py runserver 0.0.0.0:8000
 #### AZURE
 
 
+* Launch Azure Cloud Shell
+
+The Azure Cloud Shell is a interactive shell that you can use to run the steps and commands. It has common Azure tools preinstalled and configured to use with your account.
+To open the Cloud Shell, just select Try it from the upper right corner of a code block.
+
+
 
 
 
