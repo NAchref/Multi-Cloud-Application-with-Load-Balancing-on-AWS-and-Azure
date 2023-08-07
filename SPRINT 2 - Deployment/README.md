@@ -121,14 +121,14 @@ az group create --name $resourcegroup --location $location
 
    ``` shell
    vmname="myVM"
-username="azureuser"
-az vm create \
+   username="azureuser"
+   az vm create \
     --resource-group $resourcegroup \
     --name $vmname \
     --image Win2022AzureEditionCore \
     --public-ip-sku Standard \
     --admin-username $username
-    
+   
    ````
 
 
