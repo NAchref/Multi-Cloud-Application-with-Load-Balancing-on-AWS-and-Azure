@@ -105,7 +105,6 @@ python manage.py runserver 0.0.0.0:8000
    To open the Cloud Shell, just select Try it from the upper right corner of a code block.
 
 * Create a resource group
-
   Create a resource group with the az group create command.
 
  ``` shell
@@ -119,7 +118,7 @@ az group create --name $resourcegroup --location $location
 * Create virtual machine
   Create a VM with az vm create. The following example creates a VM named myVM.
 
-   ``` shell
+ ``` shell
    vmname="myVM"
    username="azureuser"
    az vm create \
@@ -129,7 +128,7 @@ az group create --name $resourcegroup --location $location
     --public-ip-sku Standard \
     --admin-username $username
    
-   ````
+  ````
 
 
 
