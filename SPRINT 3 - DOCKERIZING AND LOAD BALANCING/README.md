@@ -11,4 +11,5 @@ Dockerizing is a big hit nowadays. All the big names use it - Google, VMware, or
 * There are two parts of Docker:
 
 The `Docker Engine` - a portable packaging tool
+
 The `Docker Hub` - cloud service for sharing applications
