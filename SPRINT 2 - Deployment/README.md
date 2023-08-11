@@ -132,6 +132,45 @@ az group create --name $resourcegroup --location $location
 
 After created the `Azure` virtual machine next step is created Azure database for `MySQL` and tested connection using WorkBench.
 
+install another library to use the MySQL database
+
+``` bash
+pip install mysqlclient
+```
+
+Now as the same of `AWS` back to project repo and change the settings.py
+Open settings.py here inside the DATABASES variable configure MySQL database values, and add values of your database.
+
+``` pyhton
+
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'mydb',
+        'USER': 'ach',
+        'PASSWORD': 'admin',
+        'HOST':'localhost',
+        'PORT':'3306',
+    }
+}
+```
+
+
+Run the migration command
+
+``` python
+python manage.py migrate
+
+```
+
+Finally
+
+``` python
+python manage.py runserver 0.0.0.0:8000
+
+```
+
+
 
 
 
