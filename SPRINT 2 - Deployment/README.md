@@ -117,18 +117,22 @@ az group create --name $resourcegroup --location $location
 
 * Create virtual machine
   Create a VM with az vm create. The following example creates a VM named myVM.
+  or you can just created from azure portal using graphic as i do.
 
  ``` shell
-   vmname="myVM"
-   username="azureuser"
+   vmname="serveurAzm"
+   username="ach"
    az vm create \
-    --resource-group $resourcegroup \
     --name $vmname \
     --image Win2022AzureEditionCore \
     --public-ip-sku Standard \
     --admin-username $username
    
   ````
+
+After created the `Azure` virtual machine next step is created Azure database for `MySQL` and tested connection using WorkBench.
+
+
 
 
 
