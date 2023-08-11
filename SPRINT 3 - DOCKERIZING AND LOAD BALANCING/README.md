@@ -24,6 +24,7 @@ If your system only supports one of the two options, you will not be able to sel
 4. When the installation is successful, select Close to complete the installation process.
 
 * Install from the command line
+  
   After downloading Docker Desktop Installer.exe, run the following command in a terminal to install Docker Desktop:
 
 ``` bash
