@@ -63,3 +63,24 @@ Dockers need a base image, like `Python` or Ubuntu, or Centos, as the first line
 but you can choose Ubuntu if you want more flexibility. The best choice would be to use the Python base image and the Python 3.10 images.
 Next is ENV PYTHONUNBUFFERED 1, which means Python output is logged to the terminal, allowing Django logs to be monitored in real-time. Next, we should write create a working directory. In the next step, we should select WORKDIR /code;
 
+In the next step, we should expose Django Port for with EXPOSE 8000 following configures your Django application on the port you want based on this example we run my app on 8000 port. with CMD docker command like this :  (CMD run your command on the last step )
+
+``` docker
+
+CMD ["python","manage.py","runserver", "0.0.0.0:8000"]
+
+```
+
+Now run the following command in terminal to build your image and exect you container
+
+``` bash
+
+docker compose up --build
+
+```
+
+Now we can deploy our app on cloud azure et aws; we can upload and clone code on these platforms
+
+
+## Deployment of app on cloud
+
