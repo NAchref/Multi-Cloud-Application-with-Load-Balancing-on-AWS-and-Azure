@@ -17,11 +17,11 @@ The `Docker Hub` - cloud service for sharing applications
 ### Install Docker Desktop on Windows
 
 #### Install interactively
-1. Double-click Docker Dektop Installer.exe to run the installer.
-2. when prompted, ensure the use WSL2 instead of Hyper-V option on the Configuration page is selected or not depending on your choice of backend.
+. Double-click Docker Dektop Installer.exe to run the installer.
+. when prompted, ensure the use WSL2 instead of Hyper-V option on the Configuration page is selected or not depending on your choice of backend.
 If your system only supports one of the two options, you will not be able to select which backend to use.
-3. Follow the instructions on the installation wizard to authorize the installer and proceed with the install.
-4. When the installation is successful, select Close to complete the installation process.
+. Follow the instructions on the installation wizard to authorize the installer and proceed with the install.
+. When the installation is successful, select Close to complete the installation process.
 
 #### Install from the command line
   
@@ -90,9 +90,9 @@ For the Django web app, we write configuration on the web part of this file one 
 Because you use docker and container concept, none of your container ports you can see on your machine Except you expose or map your container port manually. For this reason, we map the 8000 container port to the 8000 machine port by this part of configuring file
 
 ``` YAML
-
 ports:
   - 8000:8000 
-
 ```
+
+
 
