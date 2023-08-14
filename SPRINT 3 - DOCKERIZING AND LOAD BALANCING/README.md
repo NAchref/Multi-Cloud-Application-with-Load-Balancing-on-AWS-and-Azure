@@ -42,3 +42,20 @@ If using the Windows Command Prompt:
 start /w "" "Docker Desktop Installer.exe" install
 ```
 
+### Setting up and Dockerizing Django app
+
+#### Step 1
+
+To install the package, you use project on the docker conatine, you should freeze you pip package. Created a file
+named requirements.txt and place it in the top level directory of your source bundle.
+
+``` shell
+pip freeze -l > requirements.txt
+
+```
+
+In the project directory, create a file named “docker-compose.yml” and another file called “Dockerfile”
+docker can build images automatically by reading the instructions from a Dockerfile. A Dockerfile is a text
+document that contains all commands a user could call on the command line to assemble an image. Using docker
+build.
+
