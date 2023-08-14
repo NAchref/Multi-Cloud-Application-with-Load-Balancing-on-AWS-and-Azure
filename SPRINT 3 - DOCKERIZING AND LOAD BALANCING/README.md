@@ -18,9 +18,12 @@ The `Docker Hub` - cloud service for sharing applications
 
 #### Install interactively
 . Double-click Docker Dektop Installer.exe to run the installer.
+
 . when prompted, ensure the use WSL2 instead of Hyper-V option on the Configuration page is selected or not depending on your choice of backend.
 If your system only supports one of the two options, you will not be able to select which backend to use.
+
 . Follow the instructions on the installation wizard to authorize the installer and proceed with the install.
+
 . When the installation is successful, select Close to complete the installation process.
 
 #### Install from the command line
