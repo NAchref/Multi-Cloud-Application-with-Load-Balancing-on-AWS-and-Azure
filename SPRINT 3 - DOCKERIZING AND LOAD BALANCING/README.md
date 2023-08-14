@@ -84,3 +84,15 @@ Now we can deploy our app on cloud azure et aws; we can upload and clone code on
 
 ## Deployment of app on cloud
 
+You should choose the docker-compose version; we chose version 3, and in the next step, specify the number of services you’d like. We just write MySQL database and Django application and Nginx configuration on this file, You can set any other service you want.
+For the Django web app, we write configuration on the web part of this file one thing you see on the web part is the build stage that’s A sign of building a dockerfile context main show your working directory path, and on the following line, you write your dockerfile path. The Dockerfile section explained how to write Dockerfiles for Django applications.
+
+Because you use docker and container concept, none of your container ports you can see on your machine Except you expose or map your container port manually. For this reason, we map the 8000 container port to the 8000 machine port by this part of configuring file
+
+``` YAML
+
+ports:
+  - 8000:8000 
+
+```
+
