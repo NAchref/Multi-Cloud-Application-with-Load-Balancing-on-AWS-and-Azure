@@ -59,3 +59,7 @@ docker can build images automatically by reading the instructions from a Dockerf
 document that contains all commands a user could call on the command line to assemble an image. Using docker
 build.
 
+Dockers need a base image, like `Python` or Ubuntu, or Centos, as the first line of the file. If you choose Python, it is easier,
+but you can choose Ubuntu if you want more flexibility. The best choice would be to use the Python base image and the Python 3.10 images.
+Next is ENV PYTHONUNBUFFERED 1, which means Python output is logged to the terminal, allowing Django logs to be monitored in real-time. Next, we should write create a working directory. In the next step, we should select WORKDIR /code;
+
