@@ -91,7 +91,7 @@ Now we can deploy our app on cloud azure et aws; we can upload and clone code on
 
 Before deploying we should protect sensitive variables in Settigns.py, Hide secret key and database Configuration, Password management and protect private
 confidential presonal data in Django.
-First we start by installing python decouple, we create dot env file.
+First we start by installing python decouple, we create dot env file in same folder and take all sensitive variables and past on .env file
 
 ### Depoyment
 
