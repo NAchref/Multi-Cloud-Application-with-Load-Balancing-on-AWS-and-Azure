@@ -105,5 +105,11 @@ ports:
   - 8000:8000 
 ```
 
+The .env file that we configured in the first step is giving the Django application to docker. As a result, we wrote this section of the config file and specified where the .env file could be found.
+
+``` YAML
+env_file: .env
+```
+
 
 
