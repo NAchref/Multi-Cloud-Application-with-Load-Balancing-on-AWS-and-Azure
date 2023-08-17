@@ -1,6 +1,6 @@
 ## Dockerizing
 
-Dockerizing is the process of packing, deploying, and running applications using Docker containers.
+$\color{red}{Dockerizing}$ is the process of packing, deploying, and running applications using Docker containers.
 
 `Docker` is an open source tool that ships your application with all the necessary functionalities as one package.
 
@@ -14,7 +14,8 @@ The `Docker Engine` - a portable packaging tool
 
 The `Docker Hub` - cloud service for sharing applications
 
-### Install Docker Desktop on Windows
+
+### Install `Docker` Desktop on $\color{blue}{Windows}$
 
 #### Install interactively
 . Double-click Docker Dektop Installer.exe to run the installer.
@@ -95,7 +96,7 @@ Now we can deploy our app on cloud azure et aws; we can upload and clone code on
 
 Before deploying we should protect sensitive variables in Settigns.py, Hide secret key and database Configuration, Password management and protect private
 confidential presonal data in Django.
-First we start by installing $\color{green}{python decouple}$ , we create dot env file in same folder and take all sensitive variables and past on .env file
+First we start by installing python $\color{green}{decouple}$ , we create dot env file in same folder and take all sensitive variables and past on .env file
 
 ### Installing Docker on ubutntu
 
