@@ -141,7 +141,7 @@ You’ll see output like output image under capture, although the version number
 
 
 
-Finally, install Docker:
+Finally, install `Docker`:
 
 ``` bash
 sudo apt install docker-ce
@@ -152,7 +152,7 @@ Docker should now be installed, the daemon started, and the process enabled to s
 ``` bash
 sudo systemctl status docker
 ```
-Or start by this command:
+Or start the `Docker` by this command:
 
 ``` bash
 sudo systemctl start docker
@@ -161,8 +161,7 @@ sudo systemctl start docker
 
 
 
-
-### Depoyment
+### Deployment
 
 You should choose the docker-compose version; we chose version 3, and in the next step, specify the number of services you’d like. We just write MySQL database and Django application and Nginx configuration on this file, You can set any other service you want.
 For the Django web app, we write configuration on the web part of this file one thing you see on the web part is the build stage that’s A sign of building a dockerfile context main show your working directory path, and on the following line, you write your dockerfile path. The Dockerfile section explained how to write Dockerfiles for Django applications.
