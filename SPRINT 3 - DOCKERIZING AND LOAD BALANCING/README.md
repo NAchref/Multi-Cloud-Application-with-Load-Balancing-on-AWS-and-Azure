@@ -124,10 +124,6 @@ Add the `Docker` repository to `APT` sources:
 ``` bash
 sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu focal stable"
 ```
-APT (Advanced Package Tool) is a package management system commonly used in Debian-based distributions such as Debian itself, Ubuntu, and their derivatives. APT is used to manage software packages, including installation, upgrading, and removal of software.
-
-APT sources, also known as repositories or software sources, are locations from which APT retrieves software packages. These sources are typically URLs or file paths that point to servers or directories containing software packages and their metadata. APT sources are defined in configuration files on your system, and these files list the repositories that APT should use when searching for packages.
-
 
 This will also update our package database with the Docker packages from the newly added repo.
 
