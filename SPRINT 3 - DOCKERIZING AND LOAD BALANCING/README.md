@@ -15,7 +15,7 @@ The `Docker Engine` - a portable packaging tool
 The `Docker Hub` - cloud service for sharing applications
 
 
-### Install Docker Desktop on $\color{green}{Windows}$
+### Install Docker Desktop on $\color{blue}{Windows}$
 
 #### Install interactively
 . Double-click Docker Dektop Installer.exe to run the installer.
@@ -98,7 +98,7 @@ Before deploying we should protect sensitive variables in Settigns.py, Hide secr
 confidential presonal data in Django.
 First we start by installing python $\color{green}{decouple}$ , we create dot env file in same folder and take all sensitive variables and past on .env file
 
-### Installing Docker on $\colorbox{green}{{\color{white}{ubutntu}}}$
+### Installing Docker on $\color{blue}{ubutntu}$
 
 The docker installation package available in the official ubutnu repository may not be the latest version. To ensure we get the latest version, we'll install
 Docker from the official Docker repository. To do that, we'll add a new package source, add the GPG key from Docker to ensure the downloads are valid, and then install the package.
