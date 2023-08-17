@@ -1,6 +1,6 @@
 ## Dockerizing
 
-$\color{red}{Dockerizing}$ is the process of packing, deploying, and running applications using Docker containers.
+Dockerizing is the process of packing, deploying, and running applications using Docker containers.
 
 `Docker` is an open source tool that ships your application with all the necessary functionalities as one package.
 
@@ -15,7 +15,7 @@ The `Docker Engine` - a portable packaging tool
 The `Docker Hub` - cloud service for sharing applications
 
 
-### Install `Docker` Desktop on $\color{blue}{Windows}$
+### Install Docker Desktop on $\color{green}{Windows}$
 
 #### Install interactively
 . Double-click Docker Dektop Installer.exe to run the installer.
