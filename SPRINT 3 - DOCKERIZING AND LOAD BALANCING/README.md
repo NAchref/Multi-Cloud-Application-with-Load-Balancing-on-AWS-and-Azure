@@ -85,7 +85,11 @@ docker compose up --build
 Now we can deploy our app on cloud azure et aws; we can upload and clone code on these platforms
 
 
-## Deployment of app on cloud
+
+
+
+
+# Deployment of app on cloud
 
 ### Secure senstive data - best practice Django
 
