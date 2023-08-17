@@ -110,6 +110,58 @@ next, install a few prerequisite packages which let `apt` use packages over HTTP
 sudo apt install apt-transport-https ca-certificates curl software-properties-common
 ```
 
+Then add the `GPG key` for the official `Docker` repository to your system:
+
+``` bash
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+```
+What's the GPG key : A GPG key, also known as a GnuPG key or OpenPGP key, is a cryptographic key used for secure communication and data integrity. GPG stands for "GNU Privacy Guard," and it is an open-source implementation of the OpenPGP standard, which provides a framework for encrypting and signing data.
+
+
+
+Add the `Docker` repository to `APT` sources:
+
+``` bash
+sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu focal stable"
+```
+APT (Advanced Package Tool) is a package management system commonly used in Debian-based distributions such as Debian itself, Ubuntu, and their derivatives. APT is used to manage software packages, including installation, upgrading, and removal of software.
+
+APT sources, also known as repositories or software sources, are locations from which APT retrieves software packages. These sources are typically URLs or file paths that point to servers or directories containing software packages and their metadata. APT sources are defined in configuration files on your system, and these files list the repositories that APT should use when searching for packages.
+
+
+This will also update our package database with the Docker packages from the newly added repo.
+
+Make sure you are about to install from the Docker repo instead of the default Ubuntu repo:
+
+``` bash
+apt-cache policy docker-ce
+```
+
+You’ll see output like output image under capture, although the version number for Docker may be different
+
+
+
+Finally, install Docker:
+
+``` bash
+sudo apt install docker-ce
+```
+
+Docker should now be installed, the daemon started, and the process enabled to start on boot. Check that it’s running:
+
+``` bash
+sudo systemctl status docker
+```
+Or start by this command:
+
+``` bash
+sudo systemctl start docker
+```
+
+
+
+
+
 ### Depoyment
 
 You should choose the docker-compose version; we chose version 3, and in the next step, specify the number of services you’d like. We just write MySQL database and Django application and Nginx configuration on this file, You can set any other service you want.
