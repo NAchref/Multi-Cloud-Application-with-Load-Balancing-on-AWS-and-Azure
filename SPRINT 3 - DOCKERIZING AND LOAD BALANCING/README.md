@@ -185,6 +185,35 @@ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 ```
 
 
+How to fix docker: Got permission denied issue
+
+``` bash
+sudo groupadd docker
+```
+
+Add your user to the docker group.
+
+``` bash
+sudo usermod -aG docker $USER
+```
+
+Log in to the new docker group (to avoid having to log out / log in again; but if not enough, try to reboot):
+
+``` bash
+newgrp docker
+```
+
+Check if docker can be run without root
+
+``` bash
+docker run hello-world
+```
+
+Reboot if still got error
+
+``` bash
+reboot
+```
 
 
 
