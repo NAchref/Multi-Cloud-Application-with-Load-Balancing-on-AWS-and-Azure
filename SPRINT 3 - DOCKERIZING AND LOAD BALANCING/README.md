@@ -216,4 +216,15 @@ reboot
 ```
 
 
+#### ERROR Invalid HTTP HOST HEADER : Disallowed Host at Invalid HTTP_HOST
+
+The error log is straightforward. You need to add your adresse to your ALLOWED_HOSTS setting
+In you project settings.py file, set ALLOWED_HOSTS like this : 
+
+``` python
+ALLOWED_HOSTS = ['198.211.19.20', 'localhost', '127.0.0.1']
+```
+
+
+
 
