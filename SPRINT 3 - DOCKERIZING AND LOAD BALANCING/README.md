@@ -178,6 +178,12 @@ The .env file that we configured in the first step is giving the Django applicat
 env_file: .env
 ```
 
+Clone the application from Github
+
+``` bash
+git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+```
+
 
 
 
