@@ -226,5 +226,19 @@ ALLOWED_HOSTS = ['198.211.19.20', 'localhost', '127.0.0.1']
 ```
 
 
+## Configure load balancing using Ngnix
+
+Advantages of load balancing : 
+
+Load balancing is an excellent way to scale out your application and increase its performance and redundancy. Nginx, a popular web server software, can be configured as a simple yet powerful load balancer to improve your server’s resource availability and efficiency.
+
+How does Nginx work? Nginx acts as a single entry point to a distributed web application working on multiple separate servers.
+As a prerequisite, we need to have at least two container with web server software installed and configured to see the benefit of the load balancer.
+
+#### Installing nginx
+
+
+
+
 
 
