@@ -113,7 +113,7 @@ next, install a few prerequisite packages which let `apt` use packages over HTTP
 sudo apt install apt-transport-https ca-certificates curl software-properties-common
 ```
 
-Then add the $\color{yellow}{GPG / key}$ for the official `Docker` repository to your system:
+Then add the $\color{orange}{GPG / key}$ for the official `Docker` repository to your system:
 
 ``` bash
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
