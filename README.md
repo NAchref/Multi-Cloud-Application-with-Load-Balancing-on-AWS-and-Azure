@@ -13,7 +13,7 @@ Our project is a `cloud application` framework that provides `intra-` and `inter
 
 My project is a framework for cloud applications to mitigate provider outages by providing resiliency at both the both intra- and inter-cloud levels, making it possible for pieces of applications to migrate from one server to another. Intra-cloud reliability platforms, however, are not nearly as common. We have included this in order to protect applications from several issues ranging from cyber attacks to hardware failures. If parts of `AWS` or `AZURE` go down, for example, the application itself should be alive and kicking, as resources will be directed to the provider that is still up.
 
-We will implemented `load balancing` at both the `intra-` and `inter-cloud` levels so that all requests are serviced, as well as duplicated data throughout different cloud providers in order to ensure that application users always have access to their current data. We will tested our framework with our own application by running it on multiple cloud providers and testing its reliability when different cloud instances are turned off.
+We will implemented `load balancing` at both the $\color{orange}{intra-}$ and $\color{orange}{inter-cloud}$ levels so that all requests are serviced, as well as duplicated data throughout different cloud providers in order to ensure that application users always have access to their current data. We will tested our framework with our own application by running it on multiple cloud providers and testing its reliability when different cloud instances are turned off.
 
 
 ## Release Planning:
