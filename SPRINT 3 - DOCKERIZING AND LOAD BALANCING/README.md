@@ -229,6 +229,8 @@ ALLOWED_HOSTS = ['198.211.19.20', 'localhost', '127.0.0.1']
 
 Load balancing multiple docker containers running a Django app can be achieved using various techniques. One common
 approach is to use a reverse proxy along with a load balancer. Additionally, you can run these on single server (Ubutnu Instance)
+
+
  
 
 
