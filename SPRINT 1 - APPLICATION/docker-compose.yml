@@ -3,7 +3,16 @@ version: '3.9'
 
 services:
   django:
-    image: django-docker:0.0.1
+    image: django-docker:0.0.2
     build: .
     ports:
-      - "8000:8000"
+      - "5000"
+
+  nginx:
+    image: nginx:latest
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf:ro
+    depends_on:
+      - django
+    ports:
+      - "80:80"
